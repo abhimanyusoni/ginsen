@@ -1,0 +1,588 @@
+@media(max-width:1750px){
+    header .col-3 { -ms-flex: 0 0 27%;flex: 0 0 27%; max-width: 27%;}
+    header .col-6 { -ms-flex: 0 0 46%;flex: 0 0 46%; max-width: 46%;}
+    header a.btn{padding: 19.5px 34.8px;}
+    header .menu ul li a{font-size: 20px;    margin: 15px 11px 0px;}
+}
+
+@media(max-width:1600px) {
+
+    /**************************  Homepage *******************************************/
+
+    section.ginsen_abt {
+        padding-left: 100px;
+    }
+    .col-6.ginsen_abt_left {
+        padding-top: 10px;
+        padding-right: 10px;
+    }
+    .location {
+        margin-top: 40px;
+    }
+
+}
+
+@media(max-width:1200px) {
+
+    section.ginsen_abt {
+        padding-left: 50px;
+        padding-bottom: 40px;
+    }
+    section.ginsen_abt .row {
+        align-items: center;
+    }
+    img.img_gin_abt {
+        margin-top: 0px;
+    }
+    .desc_abt_gen p {
+        font-size: 18px;
+    }
+    .desc_ginsen_box .head h4 {
+        font-size: 46px;
+    }
+    .location_title h5 {
+        font-size: 18px;
+    }
+    .custom_container {
+        max-width: 992px;
+        padding: 0px 15px;
+    }
+    .treatments_datail {
+        padding-top: 00px;
+    }
+
+
+    /**************************** Footer *************************************/
+
+    .footer_news form {
+        text-align: center;
+    }
+    .footer_news input[type="email"] {
+        width: 80%;
+        margin-bottom: 20px;
+    }
+    .footer_news input[type="submit"] {
+        float: unset;
+        margin: 0px auto;
+        text-align: center;
+    }
+    .custom_container .row {
+        margin: 0px 5px;
+    }
+
+}
+
+
+@media(max-width:991px) {
+
+    header .site_logo {
+        text-align: center;
+        padding-top: 0px;
+    }
+
+    header .book_now {
+        text-align: right;
+        padding-top: 40px;
+    }
+    header .contact_us {
+        padding-top: 40px;
+    }
+    header .menu ul li a {
+        font-size: 16px;
+        margin: 15px 11px 0px;
+    }
+    header .contact_us h6, .contact_us a {
+        font-size: 16px;
+    }
+    .experts_supplement_detail {
+        height: 500px;
+    }
+    .card {
+        padding: 0 15px;
+    }
+}
+
+@media(max-width:767px) {
+
+
+    /************************ Home menu ******************************************/
+
+    .slideshow-container .mySlides {
+        width: 100%;
+    }
+
+    .card {
+        width: 100%;
+        padding: 0 00px;
+    }
+
+    .contact_us {
+        display: none;
+    }
+
+    .header_icon {
+        display: none !important;
+    }
+
+    .book {
+        display: none !important;
+    }
+
+    .banner_section {
+        background-image: url(../image/home\ page.png);
+        padding-top: 130px;
+        padding-bottom: 80px;
+        background-position: inherit;
+    }
+
+    header .site_logo {
+        text-align: center;
+        padding-top: 0px;
+    }
+
+    .site_logo {
+        margin: auto;
+    }
+
+        .site_logo img {
+            max-width: 30%;
+            height: auto;
+        }
+
+    header .container {
+        padding: 0;
+        background-color: rgba(255, 255, 255, 0.7)
+    }
+
+    header .col-3 {
+        display: none !important;
+    }
+
+    header .menu {
+        display: none !important;
+    }
+
+    header .col-6 {
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+
+    .banner_section h1 {
+        margin: auto;
+        max-width: 795px;
+        line-height: 30px;
+        font-size: 24px;
+        padding: 0px 55px;
+    }
+
+    .banner_section h6 {
+        line-height: 16px;
+        font-size: 10px;
+        letter-spacing: 2px;
+        padding: 0px 62px;
+        margin: 30px 0;
+    }
+
+    a.btn_black {
+        padding: 15.5px 15.5px;
+        font-size: 9px;
+        text-transform: uppercase;
+    }
+
+    ul.slick-dots li button {
+        width: 6px;
+        height: 6px;
+    }
+
+    .banner_section ul.slick-dots {
+        bottom: -90px;
+    }
+
+    .mobile_view_cart {
+        display: block;
+        position: absolute;
+        top: 35px;
+        right: 30px;
+    }
+    header .row {
+        align-items: center;
+    }
+    .mobile_menu {
+        display: block;
+        position: absolute;
+    }
+
+    #menuToggle {
+        display: block;
+        position: relative;
+        top: 0px;
+        left: 20px;
+        z-index: 1;
+        -webkit-user-select: none;
+        user-select: none;
+    }
+
+        #menuToggle a {
+            text-decoration: none;
+            color: #232323;
+            transition: color 0.3s ease;
+        }
+
+            #menuToggle a:hover {
+                color: tomato;
+            }
+
+
+        #menuToggle input {
+            display: block;
+            width: 40px;
+            height: 32px;
+            position: absolute;
+            top: -7px;
+            left: -5px;
+            cursor: pointer;
+            opacity: 0; /* hide this */
+            z-index: 2; /* and place it over the hamburger */
+            -webkit-touch-callout: none;
+        }
+
+        /*
+     * Just a quick hamburger
+     */
+        #menuToggle span {
+            display: block;
+            width: 25px;
+            height: 2px;
+            margin-bottom: 4px;
+            position: relative;
+            background: #000000;
+            border-radius: 3px;
+            z-index: 1;
+            transform-origin: 4px 0px;
+            transition: transform 0.5s cubic-bezier(0.77,0.2,0.05,1.0), background 0.5s cubic-bezier(0.77,0.2,0.05,1.0), opacity 0.55s ease;
+        }
+
+            #menuToggle span:first-child {
+                transform-origin: 0% 0%;
+            }
+
+            #menuToggle span:nth-last-child(2) {
+                transform-origin: 0% 100%;
+            }
+
+        /* 
+     * Transform all the slices of hamburger
+     * into a crossmark.
+     */
+        #menuToggle input:checked ~ span {
+            opacity: 1;
+            transform: rotate(45deg) translate(-2px, -1px);
+            background: #232323;
+        }
+
+            /*
+     * But let's hide the middle one.
+     */
+            #menuToggle input:checked ~ span:nth-last-child(3) {
+                opacity: 0;
+                transform: rotate(0deg) scale(0.2, 0.2);
+            }
+
+            /*
+     * Ohyeah and the last one should go the other direction
+     */
+            #menuToggle input:checked ~ span:nth-last-child(2) {
+                transform: rotate(-45deg) translate(0, -1px);
+            }
+
+    /*
+     * Make this absolute positioned
+     * at the top left of the screen
+     */
+    #menu {
+        position: absolute;
+        width: 300px;
+        margin: -100px 0 0 -20px;
+        padding: 0;
+        padding-top: 125px;
+        background: #ffffff;
+        list-style-type: none;
+        -webkit-font-smoothing: antialiased;
+        /* to stop flickering of text in safari */
+        transform-origin: 0% 0%;
+        transform: translate(-100%, 0);
+        transition: transform 0.5s cubic-bezier(0.77,0.2,0.05,1.0);
+    }
+
+        #menu div {
+            border-bottom: 1px solid #000;
+        }
+
+            #menu div li {
+                padding-left: 20px;
+                font-family: sans-serif;
+                font-size: 18px;
+            }
+
+    .mobile_menu_button {
+        background-color: transparent;
+        color: black;
+        margin: 30px 50px;
+        border: 2px solid black;
+        padding: 10px;
+        border-radius: 4px;
+        width: 200px;
+        cursor: pointer;
+        font-size: 8px;
+    }
+
+    .blog_shop {
+        border-bottom: none !important;
+    }
+
+        .blog_shop a {
+            display: block;
+            padding: 14px 22px;
+            font-size: 14px;
+        }
+
+    #menu li {
+        padding: 15px 0;
+        font-size: 18px;
+    }
+
+    /*
+     * And let's slide it in from the left
+     */
+    #menuToggle input:checked ~ ul {
+        transform: none;
+    }
+
+
+    .col-6.ginsen_abt_left {
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+    .col-6.ginsen_abt_right {
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+    section.ginsen_abt .row {
+        display: block;
+    }
+    .location {
+        display: none;
+    }
+    section.ginsen_abt {
+        padding-bottom: 0px;
+    }
+    .desc_ginsen_box {
+        width: 500px;
+        margin: 0px auto;
+    }
+
+
+    /******************** Flexibility ********************************/
+
+    section.flexible_experience .row {
+        display: block;
+    }
+    section.flexible_experience .col-4 {
+        flex: 0 0 100%;
+        max-width: 100%;
+        display: inline-flex;
+        vertical-align: middle;
+        align-items: center;
+    }
+    .flexible_experience_image {
+        width: 400px;
+    }
+    .flexible_experience_details h4 {
+        padding: 0 30px;
+    }
+    .flexible_experience_details {
+        text-align: left;
+    }
+    .flexible_experience_image img {
+        padding: 15px;
+    }
+
+    section.experts_supplement .row {
+        display: block;
+    }
+    section.experts_supplement .col-6 {
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+    .experts_supplement_detail {
+        height: auto;
+        margin-bottom: 50px;
+    }
+
+
+    section.treatments .row {
+        display: block;
+    }
+    section.treatments .col-6 {
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+    .custom_container .row {
+        margin: 0px 05px;
+    }
+    .treatments_datail {
+        width: 500px;
+        margin: 0px auto;
+    }
+    .treatment_buttons {
+        margin: 50px 0;
+        display: inline-block;
+    }
+    .treatment_buttons .appointment_button {
+        background-color: black;
+        color: white;
+        padding: 20px 50px;
+        border-radius: 6px;
+        width: 100%;
+        margin-right: 0px;
+        cursor: pointer;
+        font-size: 16px;
+        margin-bottom: 20px;
+    }
+    .treatment_buttons .contact_button {
+        background-color: transparent;
+        color: black;
+        margin-left: 0px;
+        border: 3px solid black;
+        padding: 20px 40px;
+        border-radius: 6px;
+        width: 100%;
+        cursor: pointer;
+        font-size: 16px;
+    }
+
+    .img_two_testm {
+        width: 200px;
+    }
+    .img_one_testm {
+        width: 200px;
+    }
+    .slideshow-container .mySlides {
+        width: 500px;
+    }
+    .slideshow-container q {
+        font-size: 20px;
+    }
+    .slideshow-container .author {
+        font-size: 14px;
+    }
+    .seen_img_logo {
+        text-align: center;
+        margin-right: 20px;
+    }
+
+
+    .footer_news .row {
+        display: block;
+    }
+    footer .col-6 {
+        -ms-flex: 0 0 50%;
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+    .footer_news form {
+        margin-top: 30px;
+        margin-bottom: 00px;
+    }
+    .col-6.footer_dark {
+        background-color: #DDC0B8;
+        padding-bottom: 50px;
+    }
+    .footer_news h2 {
+        padding-top: 50px;
+        color: #000;
+    }
+    .col-6.footer_light {
+        background-color: #F8E2D7;
+        padding-bottom: 50px;
+    }
+
+    .footer_contact .col-4 {
+        padding-top: 44px;
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+    .footer_contact .row {
+        display: block;
+    }
+    .footer_news p {
+        color: #000;
+    }
+
+    div#one_flex img {
+        max-width: 100px;
+    }
+    div#two_flex img {
+        max-width: 100px;
+    }
+    div#three_flex img {
+        max-width: 100px;
+    }
+    .footer_contact .col-4:nth-child(2) h6 {
+        margin-top: 0px;
+    }
+
+}
+
+
+@media(max-width:550px) {
+
+    .desc_ginsen_box {
+        width: 100%;
+        margin: 0px auto;
+    }
+    .treatments_datail {
+        width: 100%;
+        margin: 0px auto;
+    }
+    .dropbtn{
+        width:100%;
+    }
+    .slideshow-container .mySlides {
+        width: 100%;
+    }
+    .dropdown-content {
+        width: 100%;
+    }
+
+    .mobile_view_cart {
+        display: block;
+        position: absolute;
+        top: 20px;
+        right: 30px;
+    }
+    .get_help_with {
+        height: auto;
+        background-color: #DDC0B8;
+    }
+    
+
+}
+
+@media(max-width:400px) {
+    .mobile_view_cart {
+        display: block;
+        position: absolute;
+        top: 11px;
+        right: 30px;
+    }
+}
+@media(max-width:360px) {
+    .mobile_view_cart {
+        display: block;
+        position: absolute;
+        top: 10px;
+        right: 30px;
+    }
+}
+
